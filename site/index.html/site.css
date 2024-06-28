@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.topo{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: black;
+    overflow: hidden;
+}
+.menu a{
+    background-color: black;
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    text-decoration: nome;
+}
+.coluna{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin-left: 10%;
+}
+.coluna1{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    margin-left: 10%;
+}
